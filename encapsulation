@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+class encapsulate{
+    public:int x;   //data access
+     void read() //memeber function
+     {
+         cin>>x;
+     }
+     void display()
+     {
+         cout<<"value of x is : " <<x;
+     }
+};
+int main()
+{
+    encapsulate s;
+    s.read();
+    s.display();
+}
