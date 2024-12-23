@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+class problem {
+public:
+    
+    void sum(int x,int y)
+    {
+        cout << "sum of x and y " << x+y << endl;
+    }
+
+    // Function with same name but
+        // double parameter
+    void sum(double x,double y)
+    {
+          cout << "sum of x and y " << x+y << endl;
+    }
+
+};
+
+int main()
+{
+    problem obj1;
+
+    
+    obj1.sum(7,6);
+
+    obj1.sum(09.132,13.02);
+    return 0;
+}
